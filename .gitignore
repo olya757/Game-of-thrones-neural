@@ -1,0 +1,13 @@
+spring_boot/.idea/*
+spring_boot/*.iml
+spring_boot/*.ipr
+spring_boot/*.iws
+
+spring_boot/out/
+spring_boot/target/
+
+spring_boot/.idea_modules/
+
+
+python/__pycache__/*
+python/*/__pycache__/*
