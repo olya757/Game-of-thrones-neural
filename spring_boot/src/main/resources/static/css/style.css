@@ -1,5 +1,6 @@
 body {
-    background-color: #fff;
+
+	background-color: rgba(255,255,245,0.8);
 }
 
 .no-display {
@@ -9,28 +10,46 @@ body {
 
 .center {
     margin: auto;
-    padding: 0px 50px;
+    padding: 20px 0px;
     text-align: center;
     font-size: 14px;
-	height: 90%;
 	width: 100%;
 }
 
 .header {
+	padding-top: 20px;
+	padding-bottom: 20px;
 	width: 100%;
-	height:200 px;
+	height: 100px;
 	background-image: url(header_back.jpg);
-	background-repeat: repeat-x;
+	background-size: cover;
+	background-repeat: repeat-x 3;
 }
 
 .title {
     font-size: 30px;
-    margin-top: 1em;
-    margin-bottom: 1em;
-    color: #262626;
+    margin-bottom: 10px;
+	margin-left: auto;
+	margin-right: auto;
+    color: #4462a1;
 	padding: 10px;
-	background-color: #ffffff;
-	
+	width: 700px;
+	height: auto;
+	background-color: rgba(255,255,245,0.8);
+}
+
+.title_small {
+    font-size: 15px;
+	margin-top:10px;
+
+    margin-bottom: 20px;
+	margin-left: auto;
+	margin-right: auto;
+    color: #4462a1;
+	padding: 10px;
+	width: 400px;
+	height: auto;
+	background-color: rgba(255,255,245,0.8);
 }
 
 .content {
@@ -44,6 +63,7 @@ body {
 .upload-label {
     padding: 10px;
     font-size: 12px;
+	color: #4462a1;
 }
 
 .result-label {
@@ -55,52 +75,48 @@ body {
 button.choose-file-button {
     width: 200px;
     height: 40px;
-    border-radius: 2px;
-    background-color: #ffffff;
-    border: solid 1px #7052CB;
-    font-size: 13px;
-    color: #7052CB;
+    border-radius: 5px;
+    background-color: #FFFFF7;
+    border: solid 1px #F5AC43;
+    font-size: 15px;
+    color: #F5AC43;
 	vertical-align:top;
 }
 
 button.choose-file-button:hover {
-    width: 200px;
-    height: 40px;
-    border-radius: 2px;
-    background-color: #F1EDFF;
-    border: solid 1px #7052CB;
-    font-size: 13px;
-    color: #7052CB;
+
+    background-color: #FFFFE0;
+    border: solid 1px #F5AC43;
+
+    color: #F5AC43;
 }
 
 button.choose-file-button:active {
-    width: 200px;
-    height: 40px;
-    border-radius: 2px;
-    background-color: #F1EDFF;
-    border: solid 1px #7052CB;
-    font-size: 13px;
-    color: #7052CB;
+
+    background-color: #FFFDF2;
+    border: solid 1px #F5AC43;
+
+    color: #F5AC43;
 }
 
 button.analyze-button {
     width: 200px;
     height: 40px;
-    border: solid 1px #7052CB;
-    border-radius: 2px;
-    background-color: #7052CB;
-    font-size: 13px;
+    border: solid 1px #F18BB3;
+    border-radius: 5px;
+    background-color: #F18BB3;
+    font-size: 15px;
     color: #ffffff;
 }
 
 button.analyze-button:hover{
-	border:solid 2px #8062db;
-	background-color: #8062db;	
+	border:solid 2px #F28C88;
+	background-color: #F28C88;
 }
 
 button.analyze-button:active{
-	border-color: #6042bB;
-	background-color: #6042bB;
+	border-color: #E7A535;
+	background-color: #E7A535;
 }
 
 button:focus {

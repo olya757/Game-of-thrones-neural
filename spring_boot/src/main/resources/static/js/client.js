@@ -29,6 +29,9 @@ function analyze() {
   xhr.onload = function(e) {
     if (this.readyState === 4) {
       var response = JSON.parse(e.target.responseText);
+      var text_name=response["result"];
+      el("image-orig").className="";
+      el("image-orig").src="/css/"+text_name+".jpg";
       el("result-label").innerHTML = `Result = ${response["result"]}`;
     }
     el("analyze-button").innerHTML = "Analyze";
